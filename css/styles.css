@@ -3,3 +3,31 @@ img {
   height: 600px;
   float: center;
 }
+
+body {
+  background-image: url(https://www.thegreatcoursesdaily.com/wp-content/uploads/2017/01/ThinkstockPhotos-453127565.jpg);
+  background-repeat: no-repeat;
+  background-size: 2000px 1000px;
+}
+
+.jumbotron {
+  background-color: whitesmoke;
+
+}
+
+p{
+  color: white; 
+  font-size: 20px;
+  
+}
+
+label {
+  color: antiquewhite;
+}
+
+#output {
+  display: none; 
+  color: rgb(67, 250, 6);
+}
+
+
