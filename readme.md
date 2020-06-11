@@ -1,12 +1,14 @@
-# _Doc readme_
+# _Roman numeral_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _ It Convert numbers into Roman numerals, 2020 ver1.0_
 
-#### By _Ian Gregg & (Co author)_
+#### By _Ian Gregg & Teresa Rosinski_
+[Roman-Numerals](https://github.com/oldgregg89/Roman-Numerals)
+
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This software will take in user input and convert that number into roman nurmerals. _
 
 ## Setup/Installation Requirements
 
@@ -15,7 +17,7 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 * Create a GitHub account
 * Clone this repo to yuor desktop and run npm install to install all dependences.
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+__
 
 ## Known Bugs
 
@@ -23,17 +25,59 @@ _No known bugs_
 
 ## Support and contact details
 
-_Contact Ian Gregg: iangregg188@gmail.com
+_Contact Ian Gregg: <iangregg188@gmail.com>
 or
-(co author)_
+Teresa Rosinski <trosinski89@gmail.com>_
 
 ## Technologies Used
 
 _The Technologies used in the making of this software was Chrome browser, Visual Studio editor, and Mac_
 
+## Specs
+
+**Behavior**: Program will return true if number entered is greater than '3999' it will break from the loop. 
+  * input: '> 3999'
+  * output: 'too high'
+
+**Behavior**: Program will return true if number entered is less than '0' it will break from the loop. 
+  * input: '< 0'
+  * output: 'not possible'
+
+**Behavior**: Program will return true if number entered more than previously stated numbers
+  * input:  '11'
+  * output: 'XI'
+
+**Behavior**: Program will return true if number entered '1' 
+  * input:  '1'
+  * output: 'I'
+
+**Behavior**: Program will return true if number entered '5'
+  * input:  '5'
+  * output: 'V'
+
+**Behavior**: Program will return true if number entered '10'
+  * input:  '10'
+  * output: 'X'
+
+**Behavior**: Program will return true if number entered '50'
+  * input:  '50'
+  * output: 'L'
+
+**Behavior**: Program will return true if number entered '100'
+  * input:  '100'
+  * output: 'C'
+
+**Behavior**: Program will return true if number entered '500'
+  * input:  '500'
+  * output: 'D'
+
+**Behavior**: Program will return true if number entered '10000'
+  * input:  '1000'
+  * output: 'M'
+
 ### License
 
-Copyright (c) 2016 **_Ian Gregg & (Co author)_**
+Copyright (c) 2020 **_Ian Gregg & Teresa Rosinski_**
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
